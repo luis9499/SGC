@@ -32,15 +32,19 @@ Copyright (C) 2017 Luis Hurtado <lhh9499@gmail.com>
                     alert("Tu estilo: "+estilo);
                         }
                 if(window.location.search === "?P1_R=A&P2_R=C&P3_R=A"){
-                    window.open("http://localhost/moodle/", target="_blank")
+                    window.open("http://localhost/moodleAud/", target="_blank")
                     estilo = "Auditivo";
                     alert("Tu estilo: "+estilo);
                 }
                 if(window.location.search === "?P1_R=C&P2_R=C&P3_R=C"){
-                    window.open("http://localhost/moodle/", target="_blank")
+                    window.open("http://localhost/moodleKin/", target="_blank")
+                    estilo = "Kinestesico";
+                    alert("Tu estilo: "+estilo);
                 }
-                if(window.location.search === "?P1_R=A&P2_R=B&P3_R=C"){
-                    window.open("http://localhost/moodle/", target="_blank")
+                if(window.location.search === "?P1_R=C&P2_R=A&P3_R=B"){
+                    window.open("http://localhost/moodleRef/", target="_blank")
+                    estilo = "Reflexivo";
+                    alert("Tu estilo: "+estilo);
                 }
             }
         </script>
